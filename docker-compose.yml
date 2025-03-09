@@ -1,0 +1,18 @@
+# docker-compose.yml
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend/dataset:/app/dataset
+      - ./backend/models:/app/models
+    environment:
+      - FLASK_ENV=development
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
