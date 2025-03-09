@@ -1,0 +1,7 @@
+# backend/requirements.txt
+flask==3.0.3          
+flask_cors
+pandas==2.2.2         
+numpy==1.26.4         
+scikit-survival==0.23.0  
+lifelines==0.29.0
