@@ -8,7 +8,7 @@ docker-compose up --build
 ```
 
 see our demo website here:
-(demo site)[https://working-sheilah-hkuqpteam-78ebb534.koyeb.app/]
+[demo site](https://working-sheilah-hkuqpteam-78ebb534.koyeb.app/)
 
 ![demo](./demo.png)
 
