@@ -1,8 +1,8 @@
-# Multi-omics Cardiovascular Disease
+# AI-based multiomics profiling for personalized prediction of cardiovascular disease: A prospective UK Biobank study
 
-This repository contains the UI and backend code for the paper "Multi-omics Cardiovascular Disease".
+This repository contains the UI and backend code for the paper "AI-based multiomics profiling for personalized prediction of cardiovascular disease: A prospective UK Biobank study".
 
-run this docker-compose command to start the service:
+Run this docker-compose command to start the service:
 ```
 docker-compose up --build
 ```
